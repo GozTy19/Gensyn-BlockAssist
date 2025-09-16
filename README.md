@@ -109,7 +109,7 @@ It prompts you to enter a [Hugging Face](https://huggingface.co/) API token. Cre
 You will be prompted to login via a browser
 * Open **Web Browser**, visit `http://localhost:3000`, and login to your Gensyn account.
 * If you have previously logged in, this step will be skipped.
-*If you run on VPS
+* If you run on VPS
     * `ssh -p 443 -R0:127.0.0.1:3000 free.pinggy.io`
     * Visit the prompted url, and enter your IP to access Gensyn login page
 
