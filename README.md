@@ -110,19 +110,7 @@ You will be prompted to login via a browser
 * Open **Web Browser**, visit `http://localhost:3000`, and login to your Gensyn account.
 * If you have previously logged in, this step will be skipped.
 *If you run on VPS
-    * 1- Open a new terminal
-    * 2- Install **localtunnel**:
-    * ```bash
-       sudo npm install -g localtunnel
-      ```
-    * 3- Get a password:
-       ```bash
-       curl https://loca.lt/mytunnelpassword
-       ```
-    * 4- Get URL
-       ```
-       lt --port 3000
-       ```
+    * `ssh -p 443 -R0:127.0.0.1:3000 free.pinggy.io`
     * Visit the prompted url, and enter your IP to access Gensyn login page
 
  ---
